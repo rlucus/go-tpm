@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	. "github.com/google/go-tpm/tpm2"
-	"github.com/google/go-tpm/tpm2/transport/simulator"
+	. "github.com/rlucus/go-tpm/tpm2"
+	"github.com/rlucus/go-tpm/tpm2/transport/simulator"
 )
 
 func TestTestParms(t *testing.T) {

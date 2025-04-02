@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	testhelper "github.com/google/go-tpm/tpm2/transport/test"
+	testhelper "github.com/rlucus/go-tpm/tpm2/transport/test"
 )
 
 func TestLocalTPM(t *testing.T) {

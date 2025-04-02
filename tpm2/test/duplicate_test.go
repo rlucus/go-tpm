@@ -3,9 +3,9 @@ package tpm2test
 import (
 	"testing"
 
-	. "github.com/google/go-tpm/tpm2"
-	"github.com/google/go-tpm/tpm2/transport"
-	"github.com/google/go-tpm/tpm2/transport/simulator"
+	. "github.com/rlucus/go-tpm/tpm2"
+	"github.com/rlucus/go-tpm/tpm2/transport"
+	"github.com/rlucus/go-tpm/tpm2/transport/simulator"
 )
 
 // TestDuplicate creates an object under Owner->SRK and duplicates it to

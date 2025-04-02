@@ -7,9 +7,9 @@ import (
 	"io"
 	"testing"
 
-	. "github.com/google/go-tpm/tpm2"
-	"github.com/google/go-tpm/tpm2/transport"
-	"github.com/google/go-tpm/tpm2/transport/simulator"
+	. "github.com/rlucus/go-tpm/tpm2"
+	"github.com/rlucus/go-tpm/tpm2/transport"
+	"github.com/rlucus/go-tpm/tpm2/transport/simulator"
 )
 
 const maxDigestBuffer = 1024

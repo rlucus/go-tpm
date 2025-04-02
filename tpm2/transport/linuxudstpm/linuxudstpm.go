@@ -9,7 +9,7 @@ import (
 	"net"
 	"os"
 
-	"github.com/google/go-tpm/tpm2/transport"
+	"github.com/rlucus/go-tpm/tpm2/transport"
 )
 
 var (
